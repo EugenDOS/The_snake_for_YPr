@@ -17,13 +17,13 @@ LEFT = (-1, 0)
 RIGHT = (1, 0)
 
 # Цвета
-BOARD_BACKGROUND_COLOR = (13, 17, 23) # фон
+BOARD_BACKGROUND_COLOR = (13, 17, 23)  # фон
 BORDER_COLOR = (93, 216, 228)         # границы ячейки
 APPLE_COLOR = (255, 0, 0)             # яблоко
 SNAKE_COLOR = (0, 255, 0)             # змейка
 
 # Скорость движения змейки
-SPEED = 20
+SPEED = 10
 
 # Настройка игрового окна
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), 0, 32)
